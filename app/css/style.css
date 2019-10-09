@@ -26,7 +26,7 @@ background: #25b99a;
 .login-form h1{
     text-align: center;
     margin-bottom: 60px;
-    color: #25b99a;
+    color: #FFBD00;
 }
 
 .txtb{
@@ -63,7 +63,7 @@ background: #25b99a;
     left: 0px;
     width: 0%;
     height: 2px;
-  background: #25b99a;
+  background: #FFBD00;
     transition: .5s;
 }
 
@@ -81,7 +81,7 @@ background: #25b99a;
     height: 50px;
     border-radius: 5px;
     border: none;
-    background: #25b99a;
+    background: #FFBD00;
     color: #fff;
     outline: none;
     cursor: pointer;
@@ -92,10 +92,12 @@ background: #25b99a;
     margin-top: 60px;
     text-align: center;
     font-size: 13px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bottom-text a{
     color: #eb4d4b;
+    
 }
 
 
