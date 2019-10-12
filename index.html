@@ -6,7 +6,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Todo List app</title>
+    <title>moove</title>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -17,26 +17,35 @@
     <script src="https://kit.fontawesome.com/8a8dd954f7.js"></script>
     
 </head>
-<body>
+<body  onload="draw()">
     
     <header>
-        <input type="text" placeholder="Entre com a atividade.." id="item">
-			<button id="add">
-				+
-			</button>
+         <a><img src="app/img/lgo MOOVE.png"/></a>
     </header>
 
-    <div class="container">
+    <div class="form">
+            <input type="text" placeholder="Entre com o peso.." id="Peso">
+                    <input type="text" placeholder="Entre com a altura.." id="Altura">
+                        <button id="add" onclick="Imc()">
+                            +
+                        </button>
+    </div>
+
+<div class="container">
         <!-- Tarefas Não Completas -->
         <ul class="todo" id="todo"></ul>
 
         <!-- Tarefas Completas -->
         <ul class="todo" id="completed"></ul>
-    </div>
+            </div>
+    
 
 
     <!-- JavaScripts -->
         <script src="app/js/main.js"></script>
+        <script src="app/js/Banco.js"></script>
     
+
+        
 </body>
 </html>
