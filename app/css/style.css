@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
@@ -11,7 +10,7 @@
 	display:flex;
 	justify-content:center;
 	height:100vh;
-	background:#fff;
+	background: linear-gradient(to right, #ff416c, #ff4b2b);
 }
 .abertura img{
 	max-width:40rem;
@@ -19,14 +18,14 @@
 
 body{
     min-height: 100vh;      
-background: #25b99a;
+background: linear-gradient(to right, #ff416c, #ff4b2b);
 }
 
 
 
 .login-form{
     width: 360px;
-    background: #fff;
+    
     height: 580px;
     padding: 80px 40px;
     border-radius: 10px;
@@ -39,20 +38,36 @@ background: #25b99a;
 .login-form h1{
     text-align: center;
     margin-bottom: 60px;
-    color: #FFBD00;
+    color: #fff;
 }
-h1 img{
-    width: 70%;
+
+
+.login-forms{
+    width: 360px;
+    
+    height: 580px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-forms h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
 }
 
 .txtb{
-    border-bottom: 2px solid #adadad;
+    border-bottom: 2px solid #fff;
     position: relative;
     margin: 30px 0;    
 }
 .txtb input{
     font-size: 15px;
-    color: #333;
+    color: #fff;
     border: none;
     width: 100%;
     outline: none;
@@ -66,7 +81,7 @@ h1 img{
     position: absolute;
     top: 50%;
     left: 5px;
-    color: #adadad;
+    color: #fff;
     transform: translateY(-50%);
     z-index: -1;
     transition: .5s;
@@ -79,7 +94,7 @@ h1 img{
     left: 0px;
     width: 0%;
     height: 2px;
-  background: #FFBD00;
+  background: #fff;
     transition: .5s;
 }
 
@@ -97,22 +112,23 @@ h1 img{
     height: 50px;
     border-radius: 5px;
     border: none;
-    background: #FFBD00;
-    color: #fff;
+    background: #fff;
+    color: #eb4d4b;
     outline: none;
     cursor: pointer;
     transition: .5s;
     font-size: 20px;
 }
 .bottom-text{
-    margin-top: 60px;
+    margin-top: 30px;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 
 .bottom-text a{
-    color: #eb4d4b;
+    color: #fff;
     
 }
 
