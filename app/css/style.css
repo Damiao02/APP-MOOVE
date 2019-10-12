@@ -6,10 +6,23 @@
     box-sizing: border-box;
 }
 
+.abertura{
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	height:100vh;
+	background:#fff;
+}
+.abertura img{
+	max-width:40rem;
+}
+
 body{
     min-height: 100vh;      
 background: #25b99a;
 }
+
+
 
 .login-form{
     width: 360px;
@@ -27,6 +40,9 @@ background: #25b99a;
     text-align: center;
     margin-bottom: 60px;
     color: #FFBD00;
+}
+h1 img{
+    width: 70%;
 }
 
 .txtb{
